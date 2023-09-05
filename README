@@ -1,0 +1,4 @@
+To play, type:   python pacman.py
+For help, type:  python pacman.py -h
+
+This is the PacMan agent that I created to play the game. It has a custom evaluation function and uses the expectimax algorithm as well as alpha-beta pruning to optimize for the highest score and efficiently search the decision tree.
