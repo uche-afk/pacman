@@ -187,7 +187,7 @@ class MinimaxAgent(MultiAgentSearchAgent):
                 return gameState.getScore()
             elif depth <= 0:  # we have reached the correct depth, so just use the evaluation function
                 return self.evaluationFunction(gameState)
-            elif player == 0:
+            elif player == 0: # we are at pacman, so we want to maximize
                 pair = maximizer(gameState, player, depth)
                 return pair[1]
             else:
